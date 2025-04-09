@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSE 110 Project First Brainstorm</title>
+    <!-- <link rel="icon" href="favicon.ico"> -->
+  </head>
+  <body>
+    <!-- Header section -->
+    <header>
+      <h1>CSE 110 Assignment Group Meeting</h1>
+      <h2>Meeting Minutes Content</h3>
+      <nav>
+        <ul>
+          <li><a href="#attendance">Attendance</a></li>
+          <li><a href="#agenda">Agenda</a></li>
+          <li><a href="#old">Unfinished Business</a></li>
+          <li><a href="#new">New Business</a></li>
+          <li><a href="#comments">Comments</a></li>
+          <li><a href="#media">Media</a></li>
+          <li><a href="#form">Feedback Form</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="attendance">
+        <h2>Attendance</h2>
+        <ul>
+          <li>Alicia</li>
+          <li>Nicholas</li>
+          <li>Charlie</li>
+        </ul>
+      </section>
+
+      <section id="agenda">
+        <h2>Agenda</h2>
+        <ol>
+          <li>Review previous action items</li>
+          <li>Discuss Pomodoro app features</li>
+          <li>Assign initial tasks</li>
+        </ol>
+      </section>
+
+      <section id="old">
+        <h2>Unfinished Business</h2>
+        <p>None from the last meeting.</p>
+      </section>
+
+      <section id="new">
+        <h2>New Business</h2>
+        <p><strong>Nicholas</strong> proposed creating a todo list using html,css, and javascript for the project.</p>
+        <p>Discussed the importance of break intervals and <em>focus sessions</em>.</p>
+      </section>
+
+      <section id="comments">
+        <h2>Miscellaneous Comments</h2>
+        <p>Use the <b>summary</b> below to hide/show extra notes.</p>
+        <details>
+          <summary>Extra Notes</summary>
+          <p>We might integrate notifications in future versions.</p>
+        </details>
+      </section>
+
+      <section id="media">
+        <h2>Media from the Meeting</h2>
+        <img src="https://d3n817fwly711g.cloudfront.net/uploads/2019/02/New-Mind-Maps-for-Meetings-1-1024x456.png" alt="Meeting diagram">
+        <p>Audio recording:</p>
+        <audio controls>
+          <source src="https://www.dropbox.com/scl/fi/er2jk0ub9025fk5y8hy0a/Lab-2-Audio.mp3?rlkey=qm6ualmvf06se3a9lggl961rc&st=j50r2pa4&raw=1
+          " type="audio/mpeg">
+        </audio>
+        <!-- <iframe width="300" height="60" frameborder="0" allow="autoplay" 
+                src="https://vocaroo.com/embed/1ndJjxHzmiBK?autoplay=0">
+        </iframe> -->
+        <p>Video recording:</p>
+        <video width="320" height="240" controls>
+          <source src="https://www.dropbox.com/scl/fi/y3gtrqu1sfdvdg95emu1o/Lab2-Video.mp4?rlkey=u9gbs8t76bt32prfswii0xwgj&st=g84yg5w4&raw=1
+          " type="video/mp4">
+        </video>
+      </section>
+
+      <section id="form">
+        <h2>Feedback Form</h2>
+        <form>
+          <fieldset>
+            <legend>Meeting Feedback</legend>
+            <label for="name">Name:</label>
+            <input type="text" id="name"><br>
+
+            <label for="date">Date Attended:</label>
+            <input type="date" id="date"><br>
+
+            <label>Rating:</label><br>
+            <input type="radio" name="rating" value="excellent"> Excellent
+            <input type="radio" name="rating" value="good"> Good
+            <input type="radio" name="rating" value="average"> Average<br>
+
+            <label>Topics Interested In:</label><br>
+            <input type="checkbox" value="UI"> Frontend
+            <input type="checkbox" value="Backend"> Backend
+            <input type="checkbox" value="Testing"> Full Stack<br>
+
+            <label for="comments">Comments:</label><br>
+            <textarea id="comments" rows="4" cols="40"></textarea><br>
+
+            <label for="language">Preferred Language:</label>
+            <input list="languages" id="language">
+            <datalist id="languages">
+                <option value="JavaScript">
+                <option value="Python">
+                <option value="C++">
+                <option value="HTML???"></option>
+            </datalist><br>
+
+            <label for="role">Role:</label>
+            <select id="role">
+              <option value="developer">Developer</option>
+              <option value="designer">Designer</option>
+              <option value="manager">Manager</option>
+            </select><br><br>
+
+            <button type="submit">Submit</button>
+          </fieldset>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
